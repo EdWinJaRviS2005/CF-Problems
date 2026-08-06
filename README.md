@@ -6,16 +6,18 @@
 
 | Total Problems | Topics |
 |---|---|
-| 3 | 6 |
+| 4 | 8 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [*special](#special) (1)
+- [binary search](#binary-search) (1)
 - [brute force](#brute-force) (1)
+- [dp](#dp) (1)
 - [greedy](#greedy) (1)
-- [implementation](#implementation) (2)
+- [implementation](#implementation) (3)
 - [math](#math) (1)
 - [sortings](#sortings) (1)
 
@@ -27,11 +29,23 @@
 |---|---------|------------|----------|
 | 158B | [Такси](https://codeforces.com/contest/158/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/EdWinJaRviS2005/CF-Problems/blob/HEAD/158/B%20-%20%D0%A2%D0%B0%D0%BA%D1%81%D0%B8/solution.cpp) |
 
+### binary search
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 706B | [Интересный напиток](https://codeforces.com/contest/706/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/EdWinJaRviS2005/CF-Problems/blob/HEAD/706/B%20-%20%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D0%BD%D1%8B%D0%B9%20%D0%BD%D0%B0%D0%BF%D0%B8%D1%82%D0%BE%D0%BA/solution.cpp) |
+
 ### brute force
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2009A | [Минимизировать!](https://codeforces.com/contest/2009/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/EdWinJaRviS2005/CF-Problems/blob/HEAD/2009/A%20-%20%D0%9C%D0%B8%D0%BD%D0%B8%D0%BC%D0%B8%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C!/solution.cpp) |
+
+### dp
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 706B | [Интересный напиток](https://codeforces.com/contest/706/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/EdWinJaRviS2005/CF-Problems/blob/HEAD/706/B%20-%20%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D0%BD%D1%8B%D0%B9%20%D0%BD%D0%B0%D0%BF%D0%B8%D1%82%D0%BE%D0%BA/solution.cpp) |
 
 ### greedy
 
@@ -44,6 +58,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 158B | [Такси](https://codeforces.com/contest/158/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/EdWinJaRviS2005/CF-Problems/blob/HEAD/158/B%20-%20%D0%A2%D0%B0%D0%BA%D1%81%D0%B8/solution.cpp) |
+| 706B | [Интересный напиток](https://codeforces.com/contest/706/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/EdWinJaRviS2005/CF-Problems/blob/HEAD/706/B%20-%20%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D0%BD%D1%8B%D0%B9%20%D0%BD%D0%B0%D0%BF%D0%B8%D1%82%D0%BE%D0%BA/solution.cpp) |
 | 1850A | [To My Critics](https://codeforces.com/contest/1850/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/EdWinJaRviS2005/CF-Problems/blob/HEAD/1850/A%20-%20To%20My%20Critics/solution.cpp) |
 
 ### math
