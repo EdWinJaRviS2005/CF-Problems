@@ -6,20 +6,22 @@
 
 | Total Problems | Topics |
 |---|---|
-| 6 | 9 |
+| 12 | 11 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [*special](#special) (1)
-- [binary search](#binary-search) (3)
-- [brute force](#brute-force) (1)
+- [binary search](#binary-search) (4)
+- [brute force](#brute-force) (3)
+- [constructive algorithms](#constructive-algorithms) (2)
 - [dp](#dp) (1)
-- [greedy](#greedy) (1)
-- [implementation](#implementation) (4)
-- [math](#math) (2)
-- [sortings](#sortings) (1)
+- [greedy](#greedy) (2)
+- [implementation](#implementation) (6)
+- [math](#math) (5)
+- [sortings](#sortings) (4)
+- [strings](#strings) (1)
 - [ternary search](#ternary-search) (1)
 
 ---
@@ -37,12 +39,22 @@
 | 706B | [Интересный напиток](https://codeforces.com/contest/706/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/EdWinJaRviS2005/CF-Problems/blob/HEAD/706/B%20-%20%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D0%BD%D1%8B%D0%B9%20%D0%BD%D0%B0%D0%BF%D0%B8%D1%82%D0%BE%D0%BA/solution.cpp) |
 | 1915C | [Можно ли построить квадрат?](https://codeforces.com/contest/1915/problem/C) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/EdWinJaRviS2005/CF-Problems/blob/HEAD/1915/C%20-%20%D0%9C%D0%BE%D0%B6%D0%BD%D0%BE%20%D0%BB%D0%B8%20%D0%BF%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B8%D1%82%D1%8C%20%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%3F/solution.cpp) |
 | 1996A | [Ноги](https://codeforces.com/contest/1996/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/EdWinJaRviS2005/CF-Problems/blob/HEAD/1996/A%20-%20%D0%9D%D0%BE%D0%B3%D0%B8/solution.cpp) |
+| 2114A | [Квадратный год](https://codeforces.com/contest/2114/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/EdWinJaRviS2005/CF-Problems/blob/HEAD/2114/A%20-%20%D0%9A%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%BD%D1%8B%D0%B9%20%D0%B3%D0%BE%D0%B4/solution.cpp) |
 
 ### brute force
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 4A | [Арбуз](https://codeforces.com/contest/4/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/EdWinJaRviS2005/CF-Problems/blob/HEAD/4/A%20-%20%D0%90%D1%80%D0%B1%D1%83%D0%B7/solution.cpp) |
 | 2009A | [Минимизировать!](https://codeforces.com/contest/2009/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/EdWinJaRviS2005/CF-Problems/blob/HEAD/2009/A%20-%20%D0%9C%D0%B8%D0%BD%D0%B8%D0%BC%D0%B8%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C!/solution.cpp) |
+| 2114A | [Квадратный год](https://codeforces.com/contest/2114/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/EdWinJaRviS2005/CF-Problems/blob/HEAD/2114/A%20-%20%D0%9A%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%BD%D1%8B%D0%B9%20%D0%B3%D0%BE%D0%B4/solution.cpp) |
+
+### constructive algorithms
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 443A | [Антон и буквы](https://codeforces.com/contest/443/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/EdWinJaRviS2005/CF-Problems/blob/HEAD/443/A%20-%20%D0%90%D0%BD%D1%82%D0%BE%D0%BD%20%D0%B8%20%D0%B1%D1%83%D0%BA%D0%B2%D1%8B/solution.cpp) |
+| 2167C | [Исаматдин и его волшебная палочка!](https://codeforces.com/contest/2167/problem/C) | 800 | [C++20 (GCC 13-64)](https://github.com/EdWinJaRviS2005/CF-Problems/blob/HEAD/2167/C%20-%20%D0%98%D1%81%D0%B0%D0%BC%D0%B0%D1%82%D0%B4%D0%B8%D0%BD%20%D0%B8%20%D0%B5%D0%B3%D0%BE%20%D0%B2%D0%BE%D0%BB%D1%88%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0!/solution.cpp) |
 
 ### dp
 
@@ -55,28 +67,43 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 158B | [Такси](https://codeforces.com/contest/158/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/EdWinJaRviS2005/CF-Problems/blob/HEAD/158/B%20-%20%D0%A2%D0%B0%D0%BA%D1%81%D0%B8/solution.cpp) |
+| 2167C | [Исаматдин и его волшебная палочка!](https://codeforces.com/contest/2167/problem/C) | 800 | [C++20 (GCC 13-64)](https://github.com/EdWinJaRviS2005/CF-Problems/blob/HEAD/2167/C%20-%20%D0%98%D1%81%D0%B0%D0%BC%D0%B0%D1%82%D0%B4%D0%B8%D0%BD%20%D0%B8%20%D0%B5%D0%B3%D0%BE%20%D0%B2%D0%BE%D0%BB%D1%88%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0!/solution.cpp) |
 
 ### implementation
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 158B | [Такси](https://codeforces.com/contest/158/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/EdWinJaRviS2005/CF-Problems/blob/HEAD/158/B%20-%20%D0%A2%D0%B0%D0%BA%D1%81%D0%B8/solution.cpp) |
+| 443A | [Антон и буквы](https://codeforces.com/contest/443/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/EdWinJaRviS2005/CF-Problems/blob/HEAD/443/A%20-%20%D0%90%D0%BD%D1%82%D0%BE%D0%BD%20%D0%B8%20%D0%B1%D1%83%D0%BA%D0%B2%D1%8B/solution.cpp) |
 | 706B | [Интересный напиток](https://codeforces.com/contest/706/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/EdWinJaRviS2005/CF-Problems/blob/HEAD/706/B%20-%20%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D0%BD%D1%8B%D0%B9%20%D0%BD%D0%B0%D0%BF%D0%B8%D1%82%D0%BE%D0%BA/solution.cpp) |
 | 1850A | [To My Critics](https://codeforces.com/contest/1850/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/EdWinJaRviS2005/CF-Problems/blob/HEAD/1850/A%20-%20To%20My%20Critics/solution.cpp) |
 | 1915C | [Можно ли построить квадрат?](https://codeforces.com/contest/1915/problem/C) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/EdWinJaRviS2005/CF-Problems/blob/HEAD/1915/C%20-%20%D0%9C%D0%BE%D0%B6%D0%BD%D0%BE%20%D0%BB%D0%B8%20%D0%BF%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B8%D1%82%D1%8C%20%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%3F/solution.cpp) |
+| 2167C | [Исаматдин и его волшебная палочка!](https://codeforces.com/contest/2167/problem/C) | 800 | [C++20 (GCC 13-64)](https://github.com/EdWinJaRviS2005/CF-Problems/blob/HEAD/2167/C%20-%20%D0%98%D1%81%D0%B0%D0%BC%D0%B0%D1%82%D0%B4%D0%B8%D0%BD%20%D0%B8%20%D0%B5%D0%B3%D0%BE%20%D0%B2%D0%BE%D0%BB%D1%88%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0!/solution.cpp) |
 
 ### math
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 4A | [Арбуз](https://codeforces.com/contest/4/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/EdWinJaRviS2005/CF-Problems/blob/HEAD/4/A%20-%20%D0%90%D1%80%D0%B1%D1%83%D0%B7/solution.cpp) |
 | 1996A | [Ноги](https://codeforces.com/contest/1996/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/EdWinJaRviS2005/CF-Problems/blob/HEAD/1996/A%20-%20%D0%9D%D0%BE%D0%B3%D0%B8/solution.cpp) |
 | 2009A | [Минимизировать!](https://codeforces.com/contest/2009/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/EdWinJaRviS2005/CF-Problems/blob/HEAD/2009/A%20-%20%D0%9C%D0%B8%D0%BD%D0%B8%D0%BC%D0%B8%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C!/solution.cpp) |
+| 2114A | [Квадратный год](https://codeforces.com/contest/2114/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/EdWinJaRviS2005/CF-Problems/blob/HEAD/2114/A%20-%20%D0%9A%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%BD%D1%8B%D0%B9%20%D0%B3%D0%BE%D0%B4/solution.cpp) |
+| 2167A | [Квадрат?](https://codeforces.com/contest/2167/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/EdWinJaRviS2005/CF-Problems/blob/HEAD/2167/A%20-%20%D0%9A%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%3F/solution.cpp) |
 
 ### sortings
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1850A | [To My Critics](https://codeforces.com/contest/1850/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/EdWinJaRviS2005/CF-Problems/blob/HEAD/1850/A%20-%20To%20My%20Critics/solution.cpp) |
+| 2167A | [Квадрат?](https://codeforces.com/contest/2167/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/EdWinJaRviS2005/CF-Problems/blob/HEAD/2167/A%20-%20%D0%9A%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%3F/solution.cpp) |
+| 2167B | [Твоё имя](https://codeforces.com/contest/2167/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/EdWinJaRviS2005/CF-Problems/blob/HEAD/2167/B%20-%20%D0%A2%D0%B2%D0%BE%D1%91%20%D0%B8%D0%BC%D1%8F/solution.cpp) |
+| 2167C | [Исаматдин и его волшебная палочка!](https://codeforces.com/contest/2167/problem/C) | 800 | [C++20 (GCC 13-64)](https://github.com/EdWinJaRviS2005/CF-Problems/blob/HEAD/2167/C%20-%20%D0%98%D1%81%D0%B0%D0%BC%D0%B0%D1%82%D0%B4%D0%B8%D0%BD%20%D0%B8%20%D0%B5%D0%B3%D0%BE%20%D0%B2%D0%BE%D0%BB%D1%88%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0!/solution.cpp) |
+
+### strings
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2167B | [Твоё имя](https://codeforces.com/contest/2167/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/EdWinJaRviS2005/CF-Problems/blob/HEAD/2167/B%20-%20%D0%A2%D0%B2%D0%BE%D1%91%20%D0%B8%D0%BC%D1%8F/solution.cpp) |
 
 ### ternary search
 
